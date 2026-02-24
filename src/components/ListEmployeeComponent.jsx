@@ -57,7 +57,7 @@ function removeEmployee(id){
               <td>{employee.lastName}</td>
               <td>{employee.email}</td>
               <td>
-                <button className='btn btn-info' onClick={() => updateEmployee(employee.id)}>Update</button>
+                <button className='btn btn-info me-2' onClick={() => updateEmployee(employee.id)}>Update</button>
                 <button className='btn btn-danger' onClick={() => removeEmployee(employee.id)}>Delete</button>
               </td>
             </tr>
